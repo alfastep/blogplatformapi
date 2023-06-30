@@ -11,7 +11,7 @@ To build and run the application, follow these steps:
 3. Navigate to the project directory.
 4. Run the following command to build the JAR file: ./mvnw clean package
 5. Once the build is successful, you can run the application using the following command: java -jar target/blogplatformapi-0.0.1-SNAPSHOT.jar
-6. You can find the JAR file in blogplatformapi/target/
+6. You can find the JAR file in `blogplatformapi/target/`
 7. The application will start running on `http://localhost:8080/posts`.
 
 ## Functionality
