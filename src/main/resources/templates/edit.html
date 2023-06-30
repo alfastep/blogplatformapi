@@ -19,8 +19,8 @@
     <label for="author">Author:</label>
     <input type="text" class="form-control" id="author" name="author" th:value="${blogPost.author}" required/><br>
   </div>
-  <input type="submit" class="btn btn-success" value="Save"/>
-  <a th:href="@{/posts}" class="btn btn-danger">Cancel</a>
+  <input type="submit" class="btn btn-primary" value="Save"/>
+  <a th:href="@{/posts}" class="btn btn-outline-secondary">Cancel</a>
 </form>
 <!--<a th:href="@{/posts}" class="btn btn-danger">Cancel</a>-->
 </body>
